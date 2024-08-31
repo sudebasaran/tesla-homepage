@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Tesla Website</title>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <a href="http://127.0.0.1:5500/Tesla%20Website/index.html">
+            <img class="logo" src="Images/Tesla-Logo.png" alt="Tesla logo" />
+        </a>
+
+        <ul>
+            <li>Araçlar</li>
+            <li>Enerji</li>
+            <li>Şarj</li>
+            <li>Keşfet</li>
+        </ul>
+
+        <div class="icons">
+            <i class="bx bx-help-circle"></i>
+            <i class="bx bx-globe"></i>
+            <i class="bx bx-user-circle"></i>
+
+        </div>
+    </nav>
+
+    <ul class="pages">
+        <li>
+            <video src="Images/Model-Y.mp4" muted autoplay loop></video>
+            <div id="model-y-info" class="page-info">
+                <h1>Model Y</h1>
+                <p>Test sürüşü planla</p>
+            </div>
+
+            <div id="model-y-footer" class="page-footer">
+
+                <div class="buttons">
+                    <button> Daha Hızlı Teslimat</button>
+                    <button> Özel Sipariş</button>
+                </div>
+
+            </div>
+        </li>
+
+        <li>
+            <img src="Images/Model-3.png" alt="Model 3" />
+            <div class="page-info">
+                <h1>Model-3</h1>
+            </div>
+            <div class="page-footer">
+                <div class="buttons inverted">
+                    <button>Güncellemeleri Al</button>
+                    <button>Ek Bilgi</button>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <img src="Images/Model-X.png" alt="Model X" />
+            <div class="page-info model-x">
+                <h1>Model-X</h1>
+            </div>
+            <div class="page-footer">
+                <div class="buttons inverted">
+                    <button>Güncellemeleri Al</button>
+                    <button>Ek Bilgi</button>
+                </div>
+
+            </div>
+        </li>
+
+        <li>
+            <img src="Images/Model-S.png" alt="Model S" />
+            <div class="page-info model-x">
+                <h1>Model S</h1>
+            </div>
+            <div class="page-footer">
+                <div class="buttons inverted">
+                    <button>Güncellemeleri Al</button>
+                    <button>Ek Bilgi</button>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <video src="Images/Experience-Tesla.mp4" muted loop autoplay></video>
+            <div class="page-info">
+                <h1>Tesla'yı Deneyimleyin</h1>
+                <p>Bugün Bir Test Sürüşü Planla</p>
+            </div>
+            <div class="page-footer">
+                <div class="buttons demo-drive">
+                    <button>Test sürüşü</button>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <script>
+        setTimeout(() => {
+            document.getElementById("model-y-info").style.opacity = 1;
+            document.getElementById("model-y-info").style.transform = "translateY(0)";
+        }, 0);
+
+        setTimeout(() => {
+            document.getElementById("model-y-footer").style.opacity = 1;
+            document.getElementById("model-y-footer").style.transform = "translateY(0)";
+        }, 1000);
+
+    </script>
+
+</body>
+
+</html>
